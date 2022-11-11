@@ -1,0 +1,48 @@
+#title{
+    font-size: 35px;
+}
+#mainContainer{
+    background-image: url("whitebackground.jfif");
+    width: 500px;
+}
+#back{
+    background-image: linear-gradient(#0dccea, #0d70ea);
+   border: 0;
+   border-radius: 4px;
+   box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+   box-sizing: border-box;
+   color: #fff;
+   cursor: pointer;
+   font-family: Montserrat,sans-serif;
+   font-size: .9em;
+   margin: 5px;
+   padding: 10px 15px;
+   text-align: center;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   font-size:12px;
+}
+#bt1 img {
+    height: 20px;  
+    width: 20px;
+}
+.content {
+    width: 700px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+    width: 200px;
+    height: 120px;
+}
+
+.content h3,
+.content p{
+    margin-left: 15px;
+    display: block;
+    margin: 20px 0 0 0;
+}
