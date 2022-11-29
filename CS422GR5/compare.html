@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Car Binder</title>
+
+<!-- Load style sheets -->
+<link rel="stylesheet" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+
+<link rel="stylesheet" href="mainlayout3.css">
+
+<!-- Use mobile-aware viewport -->
+<meta name="viewport" content=
+  "width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Load any supplemental Javascript libraries here -->
+<script src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src=
+  "https://cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.2/seedrandom.js">
+</script>
+
+
+<script>
+
+
+$(document).ready(function()
+{
+  
+});
+
+</script>
+
+</head>
+
+<body>
+
+<div class="container" id="mainContainer">
+    <p><strong><span id="title" style="color: #0000ff; font-size: 17px;"> &nbsp;&nbsp;Compare&nbsp;Vehicles</span></strong>
+      <a href="index.html"><button id="homebtn" type="button">
+        <img src="house.png" alt="house icon"></button></a></p>
+    <div class="dropdown">
+      <label for="selectedVehicle" id="select" style = "font-size: 12px", ><b>Selected Vehicle</b></label>
+      <button class="dropbtn">Change Vehicle</button>
+      <div class="dropdown-content">
+        <a href="#">Chevy Malibu</a>
+        <a href="#">Honda Civic</a>
+        <a href="#">Jeep Wrangler</a>
+      </div>
+    </div>
+    <div class="vehicles" id = "Vehicles">
+    <img src="exampleCar.jpg" id="ExampleCar" style="width:100px;height:100px;">
+    <img src="exampleCar2.webp" id="ExampleCar" style="width:100px;height:100px;">
+    </div>
+    <div class="scrollBoxes" id="ScrollBoxes">
+      <div id= "scrollbox" style="height:110px;width:100px;font-size:11px;overflow:auto;background-color:rgb(131, 148, 245);color:white;scrollbar-base-color:gold;font-family:arial;padding:15px;">Features:
+      <br>feature 1: ....<br>feature 2: ....<br>feature 3: ....<br>feature 4: ....</div>
+      <div id = "scrollbox" style="height:110px;width:100px;font-size:11px;overflow:auto;background-color:rgb(131, 148, 245);color:white;scrollbar-base-color:gold;font-family:arial;padding:15px;">Features:
+      <br>feature 1: ....<br>feature 2: ....<br>feature 3: ....<br>feature 4: ....</div>
+    </div>
+    
+</div> <!-- class="container" -->
+
+</body>
+
+</html>

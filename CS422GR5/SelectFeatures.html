@@ -1,0 +1,95 @@
+<title>Car Binder</title>
+<!-- Load style sheets -->
+<link rel="stylesheet" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+
+<link rel="stylesheet" href="SelectFeatures.css">
+
+<div id="outside">
+    <form id="survey-form" action="/my-handling-form-page" method="post">
+      <h1 id="title">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Select the features you would like in your car
+        &nbsp;&nbsp;&nbsp;
+        <a href="index.html"><button id="homebtn" type="button">
+          <img src="house.png" alt="house icon"></button></a>
+      </h1>
+      <p id="description"><b>Note:</b> The search results will be according to your selection.  </p>
+      
+      <!-- ------------------Personal Details---------------------------- -->
+      <fieldset>
+        <!-- groups of widgets that share the same purpose, for styling and semantic purposes -->
+        <legend>Type of car</legend>
+        <!-- formally describes the purpose of the fieldset it is included inside. -->
+          <div>
+          <label for="Gender">Select from the list below</label>
+          <p>
+            <input type="radio" name="gender" value="male" checked> SUV<br>
+            <input type="radio" name="gender" value="male" checked> Sedan<br>
+            <input type="radio" name="gender" value="male" checked> Hatchback<br>
+            <input type="radio" name="gender" value="male" checked> Minivan<br>
+            <input type="radio" name="gender" value="male" checked> Coupe<br>
+            <input type="radio" name="gender" value="female"> Crossover<br>
+            <input type="radio" name="gender" value="other"> Convertible
+          </p>
+        </div>
+      <!--  <label for="date-label">Date of Proposed Outing:</label>
+        <input type="date" name="bday">-->
+      
+      </fieldset>
+    
+        <!-- ------------------Radio Buttons-------------------------------- -->
+        <div>
+          <label for="Gender">Select your drivetrain</label>
+          <p>
+          <label for="Gender"> 4X4 is a system in which an automobile's engine powers all 4 wheels evenly.</label>
+            <p>
+            <label for="Gender"> 4X2  implies that there are a total of four wheels, but only two of them are driven.</label>
+          <p>
+             <label for="Gender"> Hybrid electric vehicles are powered by an internal combustion engine and one or more electric motors, which uses energy stored in batteries..</label>
+            <p>
+            <input type="radio" name="gender" value="male" checked> 4X4<br>
+              <input type="radio" name="gender" value="male" checked> 4X2<br>
+            <input type="radio" name="gender" value="female"> Hybrid<br>
+            <input type="radio" name="gender" value="other"> Electric
+          </p>
+        </div>
+      <!--  <label for="date-label">Date of Proposed Outing:</label>
+        <input type="date" name="bday">-->
+      
+      </fieldset>
+      <!-- ------------------Checkboxes-------------------------------- -->
+      <fieldset>
+        <label for="Gender">Check All That Apply</label>
+        <p>
+          <input type="checkbox" name="tattoo" value="tattoo"> Heated seats<br>
+          <input type="checkbox" name="age" value="Car"> Blind-spot monitoring<br>
+          <input type="checkbox" name="car" value="car"> Front and rear parking sensors<br>
+          <input type="checkbox" name="rich" value="rich" checked> High Mileage <br>
+          <input type="checkbox" name="work" value="work" checked> Apple CarPlay and/or Android Auto<br>
+          <input type="checkbox" name="rich" value="rich" checked> Sunroof/moonroof<br>
+          <input type="checkbox" name="loc" value="loc" checked> Bluetooth<br>
+          <input type="checkbox" name="tattoo" value="tattoo"> Third-row seating<br>
+          <input type="checkbox" name="tattoo" value="tattoo"> Navigation system<br>
+          <input type="checkbox" name="tattoo" value="tattoo"> 360-degree surround-view camera systems<br>
+          <input type="checkbox" name="tattoo" value="tattoo"> Keyless entry<br>
+          <input type="checkbox" name="rich" value="rich" checked> Heads-up display<br>
+          <input type="checkbox" name="rich" value="rich" checked> 6+ Speakers<br>
+          <input type="checkbox" name="rich" value="rich" checked> Lane-departure warning<br>
+          <input type="checkbox" name="rich" value="rich" checked> LED - Mood Lighting<br>
+        </p>
+      </fieldset>
+      
+      <!-- -----------------Dropdown menus--------------------------------- -->
+      
+      
+    
+      <!-- --------------------Text Areas------------------------------ -->
+      
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        <a href="text.html"><button id="submitbutton" type="button">Search Your Car</button></a></p>
+   
+    
+    </form>
+      </div>
+    
